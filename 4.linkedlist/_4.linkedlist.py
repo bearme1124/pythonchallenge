@@ -9,4 +9,3 @@ while type(nothing) == '':
         html = str(html)
         nothing = re.sub(r'[^0-9]', '', html)
         print(nothing)
-
